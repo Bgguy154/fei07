@@ -5,6 +5,8 @@ import TransactionForm from '@/components/TransactionForm'
 import TransactionList from '@/components/TransactionList'
 import ExpenseChart from '@/components/ExpenseChart'
 
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
   const [transactions, setTransactions] = useState([])
   const [selected, setSelected] = useState(null)
